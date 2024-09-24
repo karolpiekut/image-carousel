@@ -33,7 +33,7 @@ function controls(par) {
     }
 }
 
-function makeItMove(){
+function makeItMove() {
     for (let i = 0; i < galleryDivs.length; i++) {
         if (Number(galleryDivs[i].id.slice(2)) !== imageId) {
             document.querySelector(`#${galleryDivs[i].id}`).className = 'image-div hide';
@@ -43,8 +43,14 @@ function makeItMove(){
     }
 }
 
-function together(){
+function together() {
     controls(this);
+    makeItMove();
+}
+
+function btn() {
+    imageId = Number(this.id.slice(6));
+    console.log(imageId);
     makeItMove();
 }
 
@@ -52,4 +58,15 @@ makeItMove();
 leftArrow.addEventListener('click', together);
 rightArrow.addEventListener('click', together);
 
+document.querySelectorAll('.imageButtons').forEach(button => {
+    button.addEventListener('click', btn);
+})
 
+window.setInterval(function () {
+    if (imageId === imageTopId) {
+        imageId = 1;
+    } else {
+        imageId++;
+    }
+    makeItMove();
+}, 5000);

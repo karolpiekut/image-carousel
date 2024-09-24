@@ -1,4 +1,10 @@
 #app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#app-top {
     height: 800px;
     width: 1200px;
     margin: auto;
@@ -37,4 +43,21 @@
 
 .show {
     display: block;
+}
+
+.imageButtons {
+    padding: 0;
+    background: rgba(32, 178, 170, 0.62);
+    border: none;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.imageButtons:hover {
+    background: #20B2AAFF;
+}
+
+#dots {
+    margin-top: -130px;
 }

@@ -10,57 +10,74 @@
 </head>
 <body>
 <div id="app">
-    <button class="arrow-controls" id="left-arrow">
-        <svg viewBox="0 0 1024 1024" class="icon" xmlns="http://www.w3.org/2000/svg" fill="#000000" height="48px" width="48px">
-            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-            <g id="SVGRepo_iconCarrier">
-                <path d="M768 903.232l-50.432 56.768L256 512l461.568-448 50.432 56.768L364.928 512z"
-                      fill="#ffffff"></path>
-            </g>
-        </svg>
-    </button>
-    <div id="gallery">
-        <div class="image-div show" id="id1">
-            <img src="images/1.jpeg" class="images" alt="karpacz-sniezka">
+    <div id="app-top">
+        <button class="arrow-controls" id="left-arrow">
+            <svg viewBox="0 0 1024 1024" class="icon" xmlns="http://www.w3.org/2000/svg" fill="#000000" height="48px"
+                 width="48px">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <path d="M768 903.232l-50.432 56.768L256 512l461.568-448 50.432 56.768L364.928 512z"
+                          fill="#ffffff"></path>
+                </g>
+            </svg>
+        </button>
+        <div id="gallery">
+            <div class="image-div show" id="id1">
+                <img src="images/1.jpeg" class="images" alt="karpacz-sniezka">
+            </div>
+            <div class="image-div" id="id2">
+                <img src="images/2.jpeg" class="images" alt="alaro">
+            </div>
+            <div class="image-div" id="id3">
+                <img src="images/3.jpeg" class="images" alt="widok-na-kotline-jeleniogorska">
+            </div>
+            <div class="image-div" id="id4">
+                <img src="images/4.jpeg" class="images" alt="kolejka-linowa-kopa">
+            </div>
+            <div class="image-div" id="id5">
+                <img src="images/5.jpeg" class="images" alt="widok-na-kope-snieg">
+            </div>
+            <div class="image-div" id="id6">
+                <img src="images/6.jpeg" class="images" alt="sniezka">
+            </div>
+            <div class="image-div" id="id7">
+                <img src="images/7.jpeg" class="images" alt="gory-sowie">
+            </div>
+            <div class="image-div" id="id8">
+                <img src="images/8.jpeg" class="images" alt="rochester-riverside">
+            </div>
+            <div class="image-div" id="id9">
+                <img src="images/9.jpeg" class="images" alt="clouds">
+            </div>
+            <div class="image-div" id="id10">
+                <img src="images/10.jpeg" class="images" alt="newquay">
+            </div>
         </div>
-        <div class="image-div" id="id2">
-            <img src="images/2.jpeg" class="images" alt="alaro">
-        </div>
-        <div class="image-div" id="id3">
-            <img src="images/3.jpeg" class="images" alt="widok-na-kotline-jeleniogorska">
-        </div>
-        <div class="image-div" id="id4">
-            <img src="images/4.jpeg" class="images" alt="kolejka-linowa-kopa">
-        </div>
-        <div class="image-div" id="id5">
-            <img src="images/5.jpeg" class="images" alt="widok-na-kope-snieg">
-        </div>
-        <div class="image-div" id="id6">
-            <img src="images/6.jpeg" class="images" alt="sniezka">
-        </div>
-        <div class="image-div" id="id7">
-            <img src="images/7.jpeg" class="images" alt="gory-sowie">
-        </div>
-        <div class="image-div" id="id8">
-            <img src="images/8.jpeg" class="images" alt="rochester-riverside">
-        </div>
-        <div class="image-div" id="id9">
-            <img src="images/9.jpeg" class="images" alt="clouds">
-        </div>
-        <div class="image-div" id="id10">
-            <img src="images/10.jpeg" class="images" alt="newquay">
-        </div>
+        <button class="arrow-controls" id="right-arrow">
+            <svg viewBox="0 0 1024 1024" class="icon" xmlns="http://www.w3.org/2000/svg" fill="#000000" height="48px"
+                 width="48px">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <path d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"
+                          fill="#ffffff"></path>
+                </g>
+            </svg>
+        </button>
     </div>
-    <button class="arrow-controls" id="right-arrow">
-        <svg viewBox="0 0 1024 1024" class="icon" xmlns="http://www.w3.org/2000/svg" fill="#000000" height="48px" width="48px">
-            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-            <g id="SVGRepo_iconCarrier">
-                <path d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z" fill="#ffffff"></path>
-            </g>
-        </svg>
-    </button>
+    <div id="dots">
+        <button class="imageButtons" id="imgBtn1"></button>
+        <button class="imageButtons" id="imgBtn2"></button>
+        <button class="imageButtons" id="imgBtn3"></button>
+        <button class="imageButtons" id="imgBtn4"></button>
+        <button class="imageButtons" id="imgBtn5"></button>
+        <button class="imageButtons" id="imgBtn6"></button>
+        <button class="imageButtons" id="imgBtn7"></button>
+        <button class="imageButtons" id="imgBtn8"></button>
+        <button class="imageButtons" id="imgBtn9"></button>
+        <button class="imageButtons" id="imgBtn10"></button>
+    </div>
 </div>
 <script src="app.js"></script>
 </body>
