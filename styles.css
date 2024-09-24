@@ -13,8 +13,8 @@
     display: block;
     height: auto;
     width: auto;
-    max-height: 1024px;
-    max-width: 768px;
+    max-height: 600px;
+    max-width: 800px;
 }
 
 .arrow-controls {
@@ -31,42 +31,10 @@
     background: #20B2AAFF;
 }
 
-#id1 {
+.hide {
+    display: none;
+}
+
+.show {
     display: block;
-}
-
-#id2 {
-    display: none;
-}
-
-#id3 {
-    display: none;
-}
-
-#id4 {
-    display: none;
-}
-
-#id5 {
-    display: none;
-}
-
-#id6 {
-    display: none;
-}
-
-#id7 {
-    display: none;
-}
-
-#id8 {
-    display: none;
-}
-
-#id9 {
-    display: none;
-}
-
-#id10 {
-    display: none;
 }
